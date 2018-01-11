@@ -3,7 +3,7 @@
 
 ## Screenshots
 
-Screenshots can be found [here](ExerciceHashGenerique/tree/master/Screenshots).
+Screenshots can be found [here](https://github.com/bilal-elchami/ExerciceHashGenerique/tree/master/Screenshots).
 
 ## Versions of the DLL files
 

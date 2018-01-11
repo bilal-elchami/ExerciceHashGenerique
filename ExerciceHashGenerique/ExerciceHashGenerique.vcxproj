@@ -179,8 +179,8 @@
     <ResourceCompile Include="ExerciceHashGenerique.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sha3\Sha3.vcxproj">
-      <Project>{bcc40f77-a119-4a5e-a789-08c4ac6921a2}</Project>
+    <ProjectReference Include="..\Sha256\Sha256.vcxproj">
+      <Project>{8f67bcf7-1aa7-49ee-8a3c-22efcd6f06e8}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

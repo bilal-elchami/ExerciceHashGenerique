@@ -1,6 +1,10 @@
 #pragma once
 #ifndef SHA256_H
 #define SHA256_H
+
+#define SHA256_VERSION 1,0,0,0
+#define SHA256_VERSION_STR "1,0,0,0"
+
 #include <string>
 
 class SHA256
@@ -28,6 +32,8 @@ protected:
 
 std::string sha256(std::string input);
 
+#define SHA256_VERSION_STR "1,0,0,0"
+#define SHA256_VERSION 1,0,0,0
 #define SHA2_SHFR(x, n)    (x >> n)
 #define SHA2_ROTR(x, n)   ((x >> n) | (x << ((sizeof(x) << 3) - n)))
 #define SHA2_ROTL(x, n)   ((x << n) | (x >> ((sizeof(x) << 3) - n)))
